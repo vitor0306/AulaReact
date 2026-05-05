@@ -1,5 +1,8 @@
 import "./App.css";
 import Exemplo1 from "./Exemplo1";
+import Exercicio1 from "./exercicio1";
+import Exercicio2 from "./Exercicio2";
+import Exercicio3 from "./Exercicio3";
 export default function App()
 {
   return(
@@ -10,7 +13,28 @@ export default function App()
       <Exemplo1 numero1={10} numero2={20}/>
 
      </div>
+     
+     <div className="card">
+      <h3>Exercicio 1</h3>
 
+      <Exercicio1 numero={12} />
+      <Exercicio1 numero={67} />
+      <Exercicio1 numero={-5} />
+
+     </div>
+     <div className="card">
+      <h3>Exercicio2</h3>
+      <Exercicio2 peso={80} altura={1.80} />
+      <br />
+      <Exercicio2 peso={60} altura={1.60} />
+  </div>
+  <div className="card">
+    <h3>Exercicio3</h3>
+    <Exercicio3 n1={7.5} n2={6.5} />
+    <br />
+    <Exercicio3 n1={3} n2={6.5} />
+  </div>
    </div>
+
   )
 }
