@@ -3,6 +3,7 @@ import Exemplo1 from "./Exemplo1";
 import Exercicio1 from "./exercicio1";
 import Exercicio2 from "./Exercicio2";
 import Exercicio3 from "./Exercicio3";
+import Exercicio4 from "./Exercicio4";
 export default function App()
 {
   return(
@@ -33,6 +34,11 @@ export default function App()
     <Exercicio3 n1={7.5} n2={6.5} />
     <br />
     <Exercicio3 n1={3} n2={6.5} />
+  </div>
+  <div>
+    <Exercicio4 tipo={} base={10} altura={5}  />
+    <Exercicio4 tipo={} base={10} altura={5}  />
+    <Exercicio4 tipo={} base={10} altura={10}  />
   </div>
    </div>
 
