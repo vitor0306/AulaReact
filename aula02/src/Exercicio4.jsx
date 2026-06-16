@@ -1,19 +1,21 @@
-export default function Exercicio4({ tipo, base, altura, area }) {
-   let areaq = Number(base) * Number(area)
-   let areat = Number(2 / ((base) * (altura)))
-   let t = String(tipo)
+export default function Exercicio4({tipo,base,altura,})
+{
+   let areaq, areat;
+    areaq = Number(base) * Number(area)
+    areat = Number(2/((base)*(altura)))
+   
 
-   if (t == retangulo) {
+   if (tipo == retangulo) {
       return (
          <div>
-            o retangulo tem a area de runDEV{areaq}
+            o retangulo tem a area de {areaq}
          </div>
 
       )
    }
    else {
 
-      if (t == triangulo) {
+      if (tipo == triangulo) {
 
          return (
             <div>

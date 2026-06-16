@@ -1,17 +1,16 @@
-export default function exercicio7({celcius,farenheit,kelvin})
+export default function Exercicio7({celcius})
 {
-let c= Number(celcius)
-let f= Number((c*9/5)+32)
-let k= Number(c+273,15)
+
+let farenheit, kelvin;
+farenheit= (celcius * 9/5)+32
+kelvin= (celcius+273,15)
 
 return (
     <div>
-        <p>
-       o valor em celsius e {c} <br />
-       o valor em farenheit e {f} <br />
-       o valor em kelvin e {k}
-       </p>
+
+o valor em celsius e {celsius} o valor em farenheit e {farenheit} o valor em kelvin e {kelvin}
+       
     </div>
 
- )
+ );
 }
